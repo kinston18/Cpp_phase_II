@@ -13,6 +13,9 @@ int main()
     }
 
 cout<<"Element at 2nd index : "<<a.at(2)<<endl;
+cout<<"Empty or not :"<<a.empty()<<endl;
 
+cout<<"First element : "<<a.front()<<endl;
+cout<<"last element : "<<a.back()<<endl;
 } 
 
