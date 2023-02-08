@@ -12,8 +12,8 @@ s.push("Harsh");
 cout<<"Top element : "<<s.top()<<endl;
 
 s.pop();
-cout<<" Tom element after popping : "<<s.top()<<endl;
-
+cout<<" Top element after popping : "<<s.top()<<endl;
 cout<<"Size of Stack : "<<s.size()<<endl;
+cout<<" "<<s.empty()<<endl;
 
 }
