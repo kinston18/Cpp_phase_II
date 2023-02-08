@@ -21,4 +21,7 @@ for(int i:d){
 }
 
 cout<<"Print 1st index"<<d.at(1)<<endl;
+
+cout<<"front "<<d.front()<<endl;
+cout<<"back "<<d.back()<<endl;
 } 
