@@ -15,7 +15,10 @@ for(int i:d)
     }
 d.pop_front();
 cout<<endl;
+
 for(int i:d){
     cout<<i<<" ";
 }
+
+cout<<"Print 1st index"<<d.at(1)<<endl;
 } 
