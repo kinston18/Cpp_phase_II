@@ -8,12 +8,10 @@ void reachHome(int src, int dest){
     cout<<"pahunch gya"<<endl;
     return ;
 
-src++;
+
     //recursive call
     reachHome(src+1, dest);
 }
-
-
 
 int main(){
 
