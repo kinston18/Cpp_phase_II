@@ -8,8 +8,9 @@ void reachHome(int src, int dest){
     cout<<"pahunch gya"<<endl;
     return ;
 
+src++;
     //recursive call
-    reachHome(src+1, )
+    reachHome(src+1, dest);
 }
 
 
@@ -18,6 +19,8 @@ int main(){
 
 int dest = 10;
 int src = 1;
+
+cout<<endl;
 
 reachHome(src,dest);
 
