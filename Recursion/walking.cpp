@@ -3,14 +3,20 @@ using namespace std;
 
 void reachHome(int src, int dest){
 
+
+cout<< "source " << src <<" destination " << dest <<endl;
     //base case
-    if(src==dest)
-    cout<<"pahunch gya"<<endl;
+    if(src==dest){
+    cout<< " paunch gya " <<endl;
     return ;
+    }
 
 
+//processing - ek step aage badh jaao
+    src++;
+    
     //recursive call
-    reachHome(src+1, dest);
+    reachHome(src, dest);
 }
 
 int main(){
@@ -19,8 +25,6 @@ int dest = 10;
 int src = 1;
 
 cout<<endl;
-
 reachHome(src,dest);
-
     return 0;
 }
