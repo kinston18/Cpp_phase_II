@@ -8,13 +8,14 @@ int main(){
     stack.push(25);
     stack.push(26);
     stack.push(27);
+    stack.push(28);
     int num= 0;
     stack.push(num);
     stack.pop();
     stack.pop();
 
 
-//codition
+//condition
 while(!stack.empty()){
 
     cout<<stack.top()<<endl;
