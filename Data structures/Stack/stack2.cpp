@@ -15,7 +15,10 @@ int main(){
 
 
 //codition
-while
+while(!stack.empty()){
+
     cout<<stack.top()<<endl;
+    stack.pop();
+}
 
 }
