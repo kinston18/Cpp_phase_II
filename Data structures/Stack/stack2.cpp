@@ -15,6 +15,8 @@ int main(){
     stack.pop();
     
 
+
+
 //condition
 while(!stack.empty()){
 
