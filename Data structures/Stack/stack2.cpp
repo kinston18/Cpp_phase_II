@@ -13,9 +13,7 @@ int main(){
     stack.push(num);
     stack.pop();
     stack.pop();
-
-
-
+    
 
 //condition
 while(!stack.empty()){
