@@ -2,9 +2,17 @@
 using namespace std;
 
 
-class Employee
+class Employee{
 
-;
+private:
+int a, b,c;
+
+public:
+int d,e;
+
+};
+
+
 int main(){
 
 
