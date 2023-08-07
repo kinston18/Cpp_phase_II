@@ -17,10 +17,11 @@ void printid(){
 }
 };
 //Definition of printname using scope resolution operator : :
-void Geeks ::printname()
+void Geeks ::printname() 
 {
     cout<<"Geekname is : "<<geekname;
 }
+
 
 int main(){
     Geeks obj1;
