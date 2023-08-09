@@ -22,8 +22,6 @@ void Geeks ::printname()
     cout<<"Geekname is : "<<geekname;
 }
 
-
-
 int main(){
 
     Geeks obj1;
