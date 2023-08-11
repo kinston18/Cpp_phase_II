@@ -7,14 +7,16 @@ int data;
 Node* next;
 
 Node(int data){
-    this -> data
+    this -> data = data;
+    this -> next = NULL;
 }
 };
 
 
 int main()
 {
-Node* node1=new Node();
+
+Node* node1=new Node(10);
 cout<< node1 ->data<<endl;
 
     return 0;
