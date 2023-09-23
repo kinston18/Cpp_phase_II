@@ -5,4 +5,10 @@ int main(){
     int num = 5;
 
     cout<< num << endl;
+
+
+//address of operator
+
+cout<< " Address of num is "<< &num <<endl;
+    return 0;
 }
