@@ -6,14 +6,14 @@ int main(){
 //int *p = 0;
 
 //cout<< *p <<endl;
-int i =5;
+//int i =5;
 
-int *q = &i;
-cout<<q<<endl;
-cout<<*q<<endl;
+//int *q = &i;
+//cout<<q<<endl;
+//cout<<*q<<endl;
 
 int *p = 0;
-p=&i;
+//p=&i;
 
 cout<< p <<endl;
 cout<<*p<<endl;
@@ -31,6 +31,15 @@ int *t =&num;
 cout<<"before : " <<num<<endl;
 (*t)++;
 cout<<"after : " <<num<<endl;
+
+//impt concept
+int i = 3;
+int *w = &i;
+*w = *w +1;
+cout<< *w << endl;
+cout<< "before w"<< w <<endl;
+w=w+1;
+cout<< "after w"<< w <<endl;
 
 return 0;
 
