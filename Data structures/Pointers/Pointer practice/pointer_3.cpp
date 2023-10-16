@@ -13,5 +13,5 @@ cout<< "4th "<< *arr<<endl;
 cout<< "5th "<< *arr +1<<endl;
 cout<< "6th "<< *(arr +1)<<endl;
 
-    return 0;
+    return 0;     
 }
