@@ -26,7 +26,6 @@ void insertAtHead(Node* &head, int d){
     Node* temp = new Node(d);
     temp -> next = head;
     head = temp;
-
 }
 
 void print(Node* &head){
