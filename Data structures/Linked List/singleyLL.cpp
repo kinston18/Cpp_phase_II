@@ -22,11 +22,11 @@ void insertAtTail(Node){
 
 void insertAtHead(Node* &head, int d){
 
+
     //new node creation
     Node* temp = new Node(d);
     temp -> next = head;
     head = temp;
-    
 }
 
 void print(Node* &head){
