@@ -1,6 +1,5 @@
 //factorial of a no.
 
-
 #include<iostream>
 using namespace std;
 
