@@ -18,6 +18,7 @@ class Node{
 void insertAtTail(Node){
 
 
+
 }
 
 void insertAtHead(Node* &head, int d){
