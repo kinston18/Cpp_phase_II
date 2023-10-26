@@ -8,8 +8,26 @@ int main()
     //create a queue
     queue<int>q;
     
+    q.push(11);
+    cout<<"front of q is: " <<q.front()<<endl;
+    q.push(15);
+    cout<<"front of q is: " <<q.front()<<endl;
+    
+    q.push(13);
+    cout<<"front of q is: " <<q.front()<<endl;
+    
 
-q.push(11);
+    cout<<"size of q is: " <<q.size()<<endl;
 
+    q.pop();
+    q.pop();
+    q.pop();
+
+
+cout<<"size of q is: " <<q.size()<<endl;
+
+
+    
+    
     return 0;
 }
