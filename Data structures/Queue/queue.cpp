@@ -23,11 +23,16 @@ int main()
     q.pop();
     q.pop();
 
+    cout<<"size of q is: " <<q.size()<<endl;
 
-cout<<"size of q is: " <<q.size()<<endl;
 
+    if(q.empty()){
+        cout<< "Queue is empty" <<endl;
+    }
 
-    
+    else{
+        cout<<"Queue is not empty"<<endl;
+    }
     
     return 0;
 }
