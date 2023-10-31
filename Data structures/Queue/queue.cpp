@@ -27,10 +27,12 @@ int main()
     cout<<"size of q is: " <<q.size()<<endl;
 
 
-    if(q.empty()){
+    if(q.empty())
+    {
         cout<< "Queue is empty" <<endl;
     }
-    else cout<<"Queue is not empty"<<endl;
+    else 
+    cout<<"Queue is not empty"<<endl;
     
     return 0;
 }
