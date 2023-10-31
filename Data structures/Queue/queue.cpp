@@ -32,6 +32,5 @@ int main()
 
     else cout<<"Queue is not empty"<<endl;
     
-    
     return 0;
 }
