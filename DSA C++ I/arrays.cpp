@@ -9,7 +9,6 @@ cout<<"printing the array"<<endl;
     }
     cout<<"printing the array"<<endl;
 
-
 }
 
 int main()
