@@ -29,7 +29,6 @@ tail = tail -> next;
 
 void insertAtHead(Node* &head, int d){
 
-
     //new node creation
     Node* temp = new Node(d);
     temp -> next = head;
@@ -44,6 +43,12 @@ while(temp != NULL){
     temp= temp -> next;
 }
 cout<<endl;
+}
+
+void insertAtPosition(int position, int d){
+
+Node* temp = new Node(d);
+int cnt = 1;
 }
 
 int main() {
