@@ -51,8 +51,8 @@ Node* temp = new Node(d);
 int cnt = 1;
 }
 
-
-int main() {
+int main() 
+{
     //created a new node
     Node* node1 = new Node(10);
   //cout<< node1 -> data <<endl;
