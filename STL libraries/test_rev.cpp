@@ -10,8 +10,6 @@ while(n>0){
     v.push_back(n%10);
     n=n/10;
 }
-
-
 }
 
 int main(){
