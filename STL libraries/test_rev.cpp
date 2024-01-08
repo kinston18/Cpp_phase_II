@@ -17,5 +17,6 @@ int main(){
     cin>>n;
     cout<<reverse(n);
 
+    
     return 0;
 }
