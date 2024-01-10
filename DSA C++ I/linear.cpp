@@ -1,4 +1,6 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
+
 int linear(int n, int k, int arr[])
 {
     n--;
@@ -18,5 +20,5 @@ int main()
     int n= sizeof(arr)/sizeof(arr[0]);
     int k=5;
     int ans=linear(n,k,arr);
-    printf(ans);
+    cout<<ans;
 }
