@@ -27,5 +27,5 @@ cin>>n;
 cout<<endl;
 print(n);
 
-    return 0;
+return 0;
 }
