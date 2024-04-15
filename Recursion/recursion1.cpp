@@ -10,7 +10,7 @@ int factorial(int n){
     if(n==0)
     return 1;
 
-//recursive relation
+    //recursive relation
     int chhoti = factorial(n-1);
     int badi = n * chhoti;
 
