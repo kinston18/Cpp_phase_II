@@ -16,9 +16,7 @@ print (n-1);
 
 //processing
   cout<< n << endl;
-
 }
-
 
 int main(){
 
